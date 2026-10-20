@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mein Projekt</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      margin: 0;
+    }
+
+    h1 {
+      color: #4da6ff;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    button {
+      background: #4da6ff;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #2678cc;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Willkommen bei meinem Projekt!</h1>
+
+  <p>Meine Website funktioniert.</p>
+
+  <button onclick="zeigeNachricht()">
+    Hier klicken
+  </button>
+
+  <script>
+    function zeigeNachricht() {
+      alert("Hallo! Deine Website funktioniert.");
+    }
+  </script>
+
+</body>
+</html>
